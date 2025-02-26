@@ -1,1 +1,1 @@
-Ebooher21.github.io
+ebooher21.github.io/Resume
