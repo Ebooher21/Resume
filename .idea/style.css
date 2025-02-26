@@ -1,5 +1,5 @@
 body {
-    background-color: lightyellow;
+    background-color: #F5F5DC;
     font-family: "Baskerville Old Face", Lato;
     padding:10px;
 }
@@ -7,13 +7,39 @@ body {
     text-align: center;
 }
 
+
+h2 {
+    text-align: center;
+}
+
+h2::after{
+    content:"";
+    display: block;
+    width: 95vw;
+    height: 1px;
+    background-color: #333;
+}
+
 h3 {
+    margin-top: 5px;
     margin-bottom: 5px;
+}
+
+#h3c{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 h4 {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+#h4c{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 h5 {
